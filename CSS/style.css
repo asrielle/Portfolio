@@ -1,11 +1,19 @@
+
 .header{
     color:#583669;
     overflow-y: auto;
     width: 285px;
     position:fixed;
     padding: 0 10px;
-    background-color: #3b2646;   
+    background-color: #3b2646;  
+    
 }
+@media (max-width: 1199px) {
+  .header {
+    left: -100%;
+  }
+}
+
 /* home */
 .homepage{
   text-align: center;
