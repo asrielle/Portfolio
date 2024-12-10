@@ -1,3 +1,4 @@
+
 .header{
     color:#583669;
     overflow-y: auto;
@@ -6,6 +7,12 @@
     padding: 0 10px;
     background-color: #3b2646;  
     
+}
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%; /* Take full width of the screen */
+      margin-bottom: 20px; /* Add spacing below */
+  }
 }
 /* home */
 .homepage{
