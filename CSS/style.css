@@ -9,9 +9,14 @@
     
 }
 @media (max-width: 768px) {
-  .sidebar {
-      width: 100%; /* Take full width of the screen */
-      margin-bottom: 20px; /* Add spacing below */
+  [data-aos-delay]{
+    transition-delay: 0;
+  }
+}
+@media(min-width: 1200px){
+  .header~main,
+  .header~#footer{
+    margin-left:300px ;
   }
 }
 /* home */
