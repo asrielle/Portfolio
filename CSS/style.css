@@ -1,23 +1,10 @@
-
 .header{
     color:#583669;
     overflow-y: auto;
     width: 285px;
     position:fixed;
     padding: 0 10px;
-    background-color: #3b2646;  
-    
-}
-@media (max-width: 768px) {
-  [data-aos-delay]{
-    transition-delay: 0;
-  }
-}
-@media(min-width: 1200px){
-  .header~main,
-  .header~#footer{
-    margin-left:300px ;
-  }
+    background-color: #3b2646;   
 }
 /* home */
 .homepage{
